@@ -29,7 +29,7 @@ char* nbsmsg(void)
 
     if (nbserrno >= NBS_MAX_ERR) 
    {
-        sprintf(buf, "Unknown batch error number %d", nbserrno);
+        sprintf(buf, "Unknown  batch error number %d", nbserrno);
         return buf;
     }
     if(errno >0)
